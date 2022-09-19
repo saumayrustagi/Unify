@@ -1,0 +1,1 @@
+{'PAN':['permanent_account_number'],'employee_id':['employee_id'],'employee_name':['employee_name'],'LOP': ['leave_of_pay'], 'HRA': ['house_rent_allowance'], 'UAN': ['universal_account_number'], 'professional_tax': ['professional_tax'],'gross_salary':['gross_salary'], 'total_deductions': ['total_deductions'], 'net_pay':['net_pay']}

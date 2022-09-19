@@ -1,0 +1,1 @@
+[['employee_name', ' Saumya Mirza'], ['PAN', ' ALWPG5809L'], ['employee_id', ' 1664980 '], ['LOP', ' 1'], ['UAN', ' 104382887678'], ['professional_tax', ' 800.00'], ['HRA', ' 2534.00'], ['gross_salary', ' 34000.00 '], ['total_deductions', ' 1738.00'], ['net_pay', ' 33996.00']]
