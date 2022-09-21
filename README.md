@@ -9,7 +9,7 @@
 | ------ | ------ |
 | `csver.py` | Takes a `.csv` file as input and outputs a list of lists. |
 | `Diabolical.py` | Takes a list as input and outputs a list with fields standardized. |
-| `sql_maker.py` | Takes `.csv` file as input and creates a corresponding sql table. |
+| `sql_maker.py` | Takes a list as input and creates a corresponding sql table. |
 
 <hr>
 
