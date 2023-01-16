@@ -8,7 +8,7 @@
 | File | Usage |
 | ------ | ------ |
 | `csver.py` | Takes a `.csv` file as input and outputs a `list of lists`. |
-| `Diabolical.py` | Takes a `list of lists` as input and outputs a `list of lists` with fields standardized. |
+| `Standardize.py` | Takes a `list of lists` as input and outputs a `list of lists` with fields standardized. |
 | `sql_maker.py` | Takes a `list of lists` as input and creates a corresponding sql table. |
 
 <hr>
