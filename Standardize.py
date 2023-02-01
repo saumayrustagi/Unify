@@ -7,32 +7,32 @@ import ast
 
 
 ## List Functions
-def readLst():
-	with open('list.txt') as f:
+def readList(list):
+	with open(list) as f:
 		data = f.read()
 	d = ast.literal_eval(data)
 	return d
 
 
-def writeLst(tbw):
-	with open('list.txt', 'w') as ls:
-		ls.write(str(tbw))
+def writeList(write, list):
+	with open(list, 'w') as open_list:
+		open_list.write(str(write))
 
 
 ##
 
 
 ## Dictionary Functions
-def readDict():
-	with open('dictionary.txt') as f:
+def readDict(dict):
+	with open(dict) as f:
 		data = f.read()
 	d = ast.literal_eval(data)
 	return d
 
 
-def writeDict(tbw):
-	with open('dictionary.txt', 'w') as dict:
-		dict.write(str(tbw))
+def writeDict(write, dict):
+	with open(dict, 'w') as open_dict:
+		open_dict.write(str(write))
 
 
 def checkFF(s):
@@ -203,8 +203,8 @@ def compl(sr, thrshld):
 #
 
 # COMMANDS
-full_form = readDict()
-inp_fl = readLst()
+full_form = readDict('dictionary.txt')
+inp_fl = readList('list.txt')
 
 ## CHANGE VALUES
 
@@ -219,7 +219,7 @@ print()
 
 print(inp_fl)
 
-writeLst(inp_fl)
+writeList(inp_fl, 'list.txt')
 
 print()
 
@@ -228,4 +228,4 @@ print(full_form)
 print("\nWrite data to dictionary [y/n]? ", end='')
 comm = input()
 if comm == 'y':
-	writeDict(full_form)
+	writeDict(full_form, 'dictionary.txt')
