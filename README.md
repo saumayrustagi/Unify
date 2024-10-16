@@ -10,7 +10,3 @@
 | `csver.py` | Takes a `.csv` file as input and outputs a `list of lists`. |
 | `Standardize.py` | Takes a `list of lists` as input and outputs a `list of lists` with fields standardized. |
 | `sql_maker.py` | Takes a `list of lists` as input and creates a corresponding sql table. |
-
-<hr>
-
-This  documentation is a work in progress.
